@@ -20,13 +20,13 @@ function draw() {
   line(width/2.2, height/1.05, width/1.3, height/1.05)
 
   fill(255, 0, 0)
-  rect(0, 0, 363, 310)
+  rect(-4, -4, 366, 317)
 
   fill(0, 0, 140)
   rect(365, 525, 249, 216)
 
   fill(255, 220, 0)
-  rect(0, 522, 89, 261)
+  rect(-4, 525, 89, 270)
 }
 
 function windowResized() {
