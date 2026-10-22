@@ -1,6 +1,6 @@
 function setup() {
   createCanvas(800, 784);
-  background(240);
+  background(245);
 }
 
 function draw() {
@@ -27,6 +27,8 @@ function draw() {
 
   fill(255, 220, 0)
   rect(-4, 525, 89, 270)
+
+  
 }
 
 function windowResized() {
