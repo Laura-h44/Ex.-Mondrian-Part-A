@@ -5,7 +5,7 @@ function setup() {
 
 function draw() {
   
-  strokeWeight(7)
+  strokeWeight(10)
   line(0, height/2.5, width, height/2.5);
   line(0, height/1.5, width, height/1.5)
   line(width/2.2, 0, width/2.2, height)
@@ -19,6 +19,14 @@ function draw() {
   strokeWeight(7)
   line(width/2.2, height/1.05, width/1.3, height/1.05)
 
+  fill(255, 0, 0)
+  rect(0, 0, 363, 310)
+
+  fill(0, 0, 140)
+  rect(365, 525, 249, 216)
+
+  fill(255, 220, 0)
+  rect(0, 522, 89, 261)
 }
 
 function windowResized() {
